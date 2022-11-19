@@ -31,8 +31,24 @@ The fire is stalled for long enough for the rat to be rescued by an ambulance.
 
 === rustling_noises ===
 For some strange reason, the rat hears rustling behind him.
-+ [Explore]
-+ [Run]
++ [Explore] -> explore
++ [Run] -> run
+
+=== explore ===
+You find another rat. 
++ [Attack] -> attack
++ [Socialize 😬] -> socialize
+
+=== attack ===
+It was a rough fight but you won #alpha
++ [Continue] -> outlaw
+
+=== socialize ===
+You have a civil conversation with your fellow rat species. Turns out they were also birthed from a rock. 
+You follow them and go down a sewer ... you don't question why ... .
+All of a sudden ... you hear a swoosh. You turn and see the corpse of your new rat friend. 
++ [Fight] -> fight
++ [Flight] -> flight
 
 === end ===
 And this concludes the tail of Micky Wang. -> DONE
