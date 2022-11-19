@@ -39,6 +39,9 @@ You find another rat.
 + [Attack] -> attack
 + [Socialize 😬] -> socialize
 
+=== run ===
+The rat ran away from the rustling onto an open road. Suddenly, the rat hears a screeching noise and sees a large purple Lexus with four passengers in it. The rat gets hit by the purple Lexus. -> end
+
 === attack ===
 It was a rough fight but you won #alpha
 + [Continue] -> outlaw
@@ -49,6 +52,17 @@ You follow them and go down a sewer ... you don't question why ... .
 All of a sudden ... you hear a swoosh. You turn and see the corpse of your new rat friend. 
 + [Fight] -> fight
 + [Flight] -> flight
+
+=== fight ===
+You fight back and win like an #alpha
++ [Continue...] -> sewers
+
+=== sewers ===
+The sewers are too dangerous! The rat climbs back up to the surface.
++ [Continue...] -> outlaw
+
+=== flight ===
+
 
 === end ===
 And this concludes the tail of Micky Wang. -> DONE
