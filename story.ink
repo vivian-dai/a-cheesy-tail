@@ -2,10 +2,10 @@ VAR final_ending_text = ""
 VAR has_tail = true
 
 June 20, 2020
-On a warm summer day, a fatal car accident occured. Five people died. One life was made.
-A purple Lexus hit a grand rock and from the rock, a rat emerged. The five passengers of the vehicle were unable to witness the birth of a rat.
-+ [Go on with your life and pretend nothing happened] -> end
-+ [Follow rat's story] -> story
+Boom. Bam. POOF! It was on this warm summer day, that a fatal car accident had  occured. One life was lost. One life was made.
+A purple Lexus roared down the streets, wrecking everything in its way. BAM! The car collides into a grand rock, and scatters into a million pieces. Within the centre of it all lays a hazy silhoutte of ... a rat.
++ [Ok] -> end
++ [Follow the rat's story] -> story
 
 === story ===
 ... bump ... ba ... dum ba-bump. The rat comes to life with a seizing pain in its head, and is warmly welcomed by the gasoline fire. Sirens wail in the background, though too faint for the rat to care. The rat now has a choice to make:
@@ -14,39 +14,39 @@ A purple Lexus hit a grand rock and from the rock, a rat emerged. The five passe
 + [Stay put and pray] -> stay_and_pray
 
 === walk_into_fire ===
-The rat walks into the fire and dies a terrible death 🔥💀 -> end
+The rat inches its bare fur closer to the searing flames. Before he knew it, his fur had disintegrated, leaving only his inner whites showing. -> end
 
 === put_out_flames ===
-There are many possible utensils at the rat's disposal:
+As the flames make its way into the centre, the rat scurries around, hurrying to gather as many utensils as possible. There are many possible utensils at the rat's disposal:
 + [Throw straw at the fire] -> straw_at_fire
 + [Throw wet mud at the fire] -> ambulance_rescue
 
 === stay_and_pray ===
-The rat prays to the great rats far down below.
+Breathe in ... and out. The rat prays in solitude against the scorches.
 + [Continue...] -> ambulance_rescue
 
 === straw_at_fire ===
-The fire quickly grows too large and the rat dies 🔥💀 -> end
+The straw exacerbates the fire's blaze. It completely envelopes the rat, and asphyxiates it. -> end
 
 === ambulance_rescue ===
-The fire is stalled for long enough for the rat to be rescued by an ambulance.
+WEE-WOO WEE-WOO. The ambulance has arrived. The rat has been rescued.
 + [Continue...] -> rustling_noises
 
 === rustling_noises ===
-For some strange reason, the rat hears rustling behind him.
+shk-shk. What is that noise? The rat perks up his ears for a closer listen. It seems to have come behind.
 + [Explore] -> explore
 + [Run] -> run
 
 === explore ===
-You find another rat. 
+Out comes another rat. What should the rat do? 
 + [Attack] -> attack
-+ [Socialize 😬] -> socialize
++ [Socialize] -> socialize
 
 === run ===
-The rat ran away from the rustling onto an open road. Suddenly, the rat hears a screeching noise and sees a large purple Lexus with four passengers in it. The rat gets hit by the purple Lexus. -> end
+The rat ran away from the rustling onto an open road. Suddenly, the rat hears a screeching noise and sees a large purple Lexus heading towards its way. BAM! -> end
 
 === attack ===
-It was a rough fight but you won #alpha
+You lunge onto the rat and and kick him right in its head. The rat falls flat on its back. The rat won. \#alpha
 + [Continue] -> outlaw
 
 === socialize ===
@@ -56,30 +56,31 @@ All of a sudden ... you hear a swoosh. You turn and see the corpse of your new r
 + [Continue...] -> sewers
 
 === sewers ===
-The sewers are too dangerous! The rat gets ambushed!
+As you walk by the swere pipes, the rat is accompanied by background drizzles. DSKLFJDSKLFJSDKLF The rat gets ambushed!
 + [Fight] -> fight
 + [Flight] -> flight
 
 === fight ===
-You fight back and win like an #alpha. 
-The sewers are too dangerous and the rat decides to go back up to the surface.
+The rat packs a 400 N hammer swing right at the ambusher's chest. All that's left is a plop to the ground. 
+The sewers are too dangerous. It's time to go back up to the surface.
 + [Continue...] -> outlaw
 
 === flight ===
-The rat swims and gets carried by the stream.
+Without hesitation, the rat dives into the sewer waters and lets himself get carried by the current.
 + [Continue...] -> pre_underground_life
 
 === outlaw ===
-TODO: write this lol
+After the violent event, the rat seems to have never recovered. Day by day, the rat wandered the trails near the sewage entrance, waiting for its next victim. One day, the rat met its match. The intense match ended with the rat pushed down the sewers. A great wave hits the rat and pushes it down the stream to an underground city ... 
++ [Continue...] -> underground_life
 
 === pre_underground_life ===
-The rat finds an underground city!
+In the far distance, there is a point light. As the rat walks near, the intensity increases. It was not a random light, but an underground city. What will happen next? 
 + [Continue...] -> underground_life
 
 === underground_life ===
 The rat hears a voice.
 "Seize!"
-The rat sees a mouse approaching.
+The rat sees a mouse charging.
 + [Run] -> run_underground
 + [Stay] -> stay
 
